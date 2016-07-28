@@ -67,21 +67,6 @@ public class AppointExecution {
 		this.appointment = appointment;
 	}
 
-	public AppointExecution(long bookId, int state, String stateInfo, Appointment appointment) {
-		super();
-		this.bookId = bookId;
-		this.state = state;
-		this.stateInfo = stateInfo;
-		this.appointment = appointment;
-	}
-
-	// 省略getter和setter方法，toString方法
-
-	@Override
-	protected Object clone() throws CloneNotSupportedException {
-		// TODO Auto-generated method stub
-		return super.clone();
-	}
 
 	@Override
 	public String toString() {
